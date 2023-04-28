@@ -1,12 +1,13 @@
-Lab6
-The project uses Document and DocumentBuilder to read the arxml file, and extract its contents into a NodeList. Each container inside the root is a node in the DOM. The list of nodes can be sorted using a sort function which implements Comparator.
+# Lab6
 
-After sorting the nodes, a new document is created with the root. Afterwards, the sorted nodes are appended to the DOM and the file is written with the new modified name.
+The project uses Document and DocumentBuilder to read the arxml file, and extract its contents into a NodeList. Each container inside the <AUTOSAR> root is a node in the DOM. The list of nodes can be sorted using a sort function which implements `Comparator`.
 
-How to run:
-Compile the program with javac Main.java
+After sorting the nodes, a new document is created with the <AUTOSAR> root. Afterwards, the sorted nodes are appended to the DOM and the file is written with the new modified name.
 
-Run the program and specify the arxml file name as an argument: java Main lab.arxml
+# How to run:
+Compile the program with `javac Main.java`
 
-Test cases
-The program includes exception handling for empty files and invalid arxml files. All 3 cases can be tested by running tests.bat.
+Run the program and specify the arxml file name as an argument: `java Main lab.arxml`
+  
+# Test cases
+The program includes exception handling for empty files and invalid arxml files. All 3 cases can be tested by running `tests.bat`.
